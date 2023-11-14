@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial","sans-serif";
+}
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+#sec1{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6% 25%;
+    text-align: center;
+    color: rgb(255, 251, 251);
+}
+#sec1 img{
+    margin-bottom: 7%;
+}
+.sectext{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    font-family: "Roboto",sans-serif;
+
+}
+#sec2{
+    padding: 4% 0%;
+    text-align: center;
+    grid-template-rows: auto auto;
+    gap: 4% 4%;
+}
+#sec2 div{
+    display: inline-block;
+    width: 40%;
+    padding: 2% 4%;
+}
